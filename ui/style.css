@@ -21,10 +21,10 @@ body {
 }
 
 .container{
-    max-width:200px;
+    max-width:880px;
     padding-left:20px;
     padding-right:20px;
     margin:0 auto;
     color:red;
-    font-family:comic sans;
+   
 }
