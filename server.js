@@ -5,7 +5,10 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-
+var articles=
+{
+    var first=
+};
 var first= {
     title: 'Game of Thrones | TV Series',
     heading: 'Game Of Thrones',
