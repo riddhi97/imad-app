@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var articles=
 {
-    var first=
+    var PageFirst=
 };
 var first= {
     title: 'Game of Thrones | TV Series',
@@ -65,12 +65,12 @@ app.get('/ui/style.css', function (req, res) {
   res.send(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/first', function (req, res) {
-  res.send(createTemplate(first));
+app.get('/PageFirst', function (req, res) {
+  res.send(createTemplate(PageFirst));
 });
 
-app.get('/second', function (req, res) {
-  res.sendFile(path.join(__dirname,'ui','second.html'));
+app.get('/PageSecond', function (req, res) {
+  res.sendFile(path.join(__dirname,'ui','sec.html'));
 });
 
 
